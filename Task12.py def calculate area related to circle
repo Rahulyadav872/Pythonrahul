@@ -1,0 +1,33 @@
+def calculate_area(r):
+  areaofcircle=pi*r*r
+  print("Area of circle : ", areaofcircle)
+
+
+def greater(r1, r2):
+  if(r1>r2):
+    print("first number is greatest")
+  else:
+    print("second number is greatest")
+    
+pi=3.14
+
+r1=2
+calculate_area(r1)
+
+r2=3
+calculate_area(r2)
+greater(r1, r2)
+
+r3=4
+calculate_area(r3)
+
+r4=10
+calculate_area(r4)
+greater(r3, r4)
+
+r5=19
+calculate_area(r5)
+
+r6=1
+calculate_area(r6)
+greater(r5, r6)
