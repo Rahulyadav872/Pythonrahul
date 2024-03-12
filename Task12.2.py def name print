@@ -1,0 +1,10 @@
+def name(fname, lname):
+    print("Hello,", fname, lname)
+
+name("shivam", "Mehta")
+name("abhay","maurya")
+name("saurabh", "vishwakarma")
+name("sujeet", "vishwakarma")
+name("samrat", "mehta")
+name("Sachin","Singh")
+name("Aman","Singh")
